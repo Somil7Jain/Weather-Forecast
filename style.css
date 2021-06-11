@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Baloo Bhai 2", cursive;
+  flex-wrap: wrap;
+}
+:root {
+  --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+  --bg-color: #343d4b;
+  --bg-color--card: #222831;
+  --main-text-color: #ffffff;
+  --main-border-radius: 25px;
+  --secondary-border-radius: 15px;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1 {
+  margin: 15px;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.searchbox {
+  padding: 5px;
+  height: 30px;
+  width: 221px;
+  border-radius: 13px;
+  border: 2px solid #42afaf;
+  font-size: 1.09rem;
+  outline: none;
+  margin: 8px auto;
+}
+.btn {
+  margin: 15px;
+  border-radius: 7px;
+  height: 35px;
+  width: 84px;
+  background-color: black;
+  color: white;
+  border: 2px solid #42afaf;
+  font-size: 1.03rem;
+  cursor: pointer;
+  font-family: "Odibee Sans", cursive;
+}
+.btn:hover {
+  background-color: #e1e3ef;
+  color: black;
+}
+.mainapp {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  justify-content: center;
+  visibility: hidden;
+  flex-wrap: wrap;
+}
+.imagewithinfo {
+  border: 2px solid #42afaf;
+  height: 380px;
+  width: 299px;
+  background: url("mountain.jpg");
+  margin: 46px 11px 5px 8px;
+  border-radius: var(--main-border-radius);
+  -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+.otherinfo {
+  border: 2px solid #42afaf;
+  height: 380px;
+  width: 299px;
+  margin: 46px 11px 5px 11px;
+  border-radius: var(--main-border-radius);
+  -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  background-color: var(--bg-color--card);
+  color: var(--main-text-color);
+  font-weight: bold;
+}
+.day {
+  color: white;
+  font-size: 2.17rem;
+  margin: 0px 0px -14px 6px;
+}
+.month_date {
+  padding: 5px;
+  color: #a28c8c;
+  font-size: 1.27rem;
+  margin: -21px 0px 0px 5px;
+}
+.time {
+  padding: 5px;
+  color: #132f38;
+  font-size: 1.45rem;
+  margin: -6px 0px 0px 5px;
+}
+.weathericon {
+  padding: 5px;
+  color: white;
+  font-size: 1.16rem;
+}
+.icon {
+  height: 10rem;
+  margin: 0px 0px -46px -23px;
+}
+.weatherresult {
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  margin: -15px 76px 9px 6px;
+}
+.city {
+  padding: 5px;
+  color: white;
+  font-size: 2rem;
+  margin: -10px 0px 0px 4px;
+}
+.temperature {
+  padding: 5px;
+  color: #132f38;
+  font-size: 1.7rem;
+  margin: -13px 0px -9px 6px;
+}
+.humidity {
+  padding: 5px;
+  color: white;
+  font-size: 1.4rem;
+  margin: 5px 0px 0px 10px;
+}
+.wind {
+  padding: 5px;
+  color: white;
+  font-size: 1.4rem;
+  margin: 5px 0px 0px 10px;
+}
+.airpressure {
+  padding: 5px;
+  color: white;
+  font-size: 1.4rem;
+  margin: 5px 0px 0px 10px;
+}
+.maxtemp {
+  padding: 5px;
+  color: white;
+  font-size: 1.4rem;
+  margin: 5px 0px 0px 10px;
+}
+.mintemp {
+  padding: 5px;
+  color: white;
+  font-size: 1.4rem;
+  margin: 5px 0px 0px 10px;
+}
